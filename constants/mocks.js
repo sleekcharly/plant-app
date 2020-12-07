@@ -4,43 +4,43 @@ const categories = [
     name: "Plants",
     tags: ["products", "inspirations"],
     count: 147,
-    image: require("../assets/icons/plants.png")
+    image: require("../assets/icons/plants.png"),
   },
   {
     id: "seeds",
     name: "Seeds",
     tags: ["products", "shop"],
     count: 16,
-    image: require("../assets/icons/seeds.png")
+    image: require("../assets/icons/seeds.png"),
   },
   {
     id: "flowers",
     name: "Flowers",
     tags: ["products", "inspirations"],
     count: 68,
-    image: require("../assets/icons/flowers.png")
+    image: require("../assets/icons/flowers.png"),
   },
   {
     id: "sprayers",
     name: "Sprayers",
     tags: ["products", "shop"],
     count: 17,
-    image: require("../assets/icons/sprayers.png")
+    image: require("../assets/icons/sprayers.png"),
   },
   {
     id: "pots",
     name: "Pots",
     tags: ["products", "shop"],
     count: 47,
-    image: require("../assets/icons/pots.png")
+    image: require("../assets/icons/pots.png"),
   },
   {
     id: "fertilizers",
     name: "fertilizers",
     tags: ["products", "shop"],
     count: 47,
-    image: require("../assets/icons/fertilizers.png")
-  }
+    image: require("../assets/icons/fertilizers.png"),
+  },
 ];
 
 const products = [
@@ -60,9 +60,9 @@ const products = [
       require("../assets/images/plants_3.png"),
       require("../assets/images/plants_1.png"),
       require("../assets/images/plants_2.png"),
-      require("../assets/images/plants_3.png")
-    ]
-  }
+      require("../assets/images/plants_3.png"),
+    ],
+  },
 ];
 
 const explore = [
@@ -72,18 +72,18 @@ const explore = [
   require("../assets/images/explore_3.png"),
   require("../assets/images/explore_4.png"),
   require("../assets/images/explore_5.png"),
-  require("../assets/images/explore_6.png")
+  require("../assets/images/explore_6.png"),
 ];
 
 const profile = {
-  username: "react-ui-kit",
-  location: "Europe",
-  email: "contact@react-ui-kit.com",
-  avatar: require("../assets/images/avatar.png"),
+  username: "amazing-charly",
+  location: "Lagos-Nigeria",
+  email: "c_ukasoanya@yahoo.com",
+  avatar: require("../assets/images/avatar2.jpg"),
   budget: 1000,
   monthly_cap: 5000,
   notifications: true,
-  newsletter: false
+  newsletter: false,
 };
 
 export { categories, explore, products, profile };
